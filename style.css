@@ -71,6 +71,7 @@ hr {
     background-color: var(--primary-color);
     color: white;
     padding: 0.8rem;
+    box-shadow: 10px 10px 20px grey;
 }
 
 .nav-header {
