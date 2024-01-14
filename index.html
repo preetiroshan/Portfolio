@@ -4,13 +4,14 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Preeti Roshan Blog - Home page" />
+    <meta name="description" content="Preeti Roshan Portfolio - Home page" />
     <title>Preeti Roshan | Portfolio</title>
     <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
     <link rel="icon" href="./assets/images/briefcase.png" />
+    <script src="script.js" defer></script>
   </head>
 
-  <body class="root">
+  <body class="root light-mode">
     <nav class="nav nav-header container-hero">
       <h2 class="nav-heading">Preeti Roshan</h2>
 
@@ -36,6 +37,9 @@
     </nav>
 
     <header class="header container-center">
+      <div id="theme-btn" onclick="handleClick()" class="link link-secondary">
+        Dark Mode
+      </div>
       <img
         class="hero-image"
         src="assets/images/profile.svg"
@@ -48,7 +52,6 @@
         Paytm
       </p>
     </header>
-
     <section class="section section-off-white">
       <div class="container container-center">
         <h2>Technologies</h2>
