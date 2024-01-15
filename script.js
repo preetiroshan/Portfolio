@@ -1,4 +1,4 @@
-const themeBtn = document.querySelector(".theme-btn");
+const themeBtn = document.querySelector("#theme-btn");
 const body = document.querySelector("body");
 const handleClick = () => {
   if (body.classList.contains("light-mode")) {
